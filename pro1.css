@@ -1,10 +1,135 @@
 body {
-    background-color: #f0f8ff;
-    font-family: Arial, sans-serif;
-    text-align: center;
-    padding: 50px;
+  margin: 0;
+  font-family: Tahoma, sans-serif;
+  background-color: #E8DEF6;
+  text-align: center;
 }
 
-h1 {
-    color: #4c93af;
+.login-section {
+  padding: 40px 20px;
+  background-color: #fff;
+}
+
+.login-section input {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.login-section button {
+  background-color: #E8DEF6;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.sections {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 30px;
+}
+
+.sections img {
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.sections img:hover {
+  transform: scale(1.05);
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  width: 250px;
+  padding: 15px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.price {
+  margin: 10px 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #d9caec;
+}
+
+.contact-section {
+  background-color: #e6d6f2;
+  padding: 20px 20px;
+  text-align: center;
+}
+
+.contact-section h2 {
+  margin-bottom: 30px;
+  font-size: 24px;
+  color: #333;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.social-icons a img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+
+.social-icons a img:hover {
+  transform: scale(1.1);
+}
+
+.Time {
+  background-color: #4b006e;
+  color: white;
+  padding: 40px 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.Time div {
+  width: 45%;
+  min-width: 200px;
+  margin-bottom: 20px;
+}
+
+.Time hr {
+  border: none;
+  border-top: 1px solid #bbb;
+  margin-bottom: 15px;
+}
+
+.Time p {
+  margin: 5px 0;
+  font-size: 14px;
 }
